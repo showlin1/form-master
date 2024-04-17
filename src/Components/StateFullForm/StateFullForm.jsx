@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const StateFullForm = () => {
 
-    const [name, setName] = useState(null);
+    const [name, setName] = useState('Sorna');
 
     const [email, setEmail] = useState(null);
 
@@ -26,7 +26,6 @@ const StateFullForm = () => {
         setName(e.target.value);
     }
     const handleEmailChange = e => {
-        // console.log(e.target.value)
         setEmail(e.target.value)
     }
     const handlePasswordChange = e => {

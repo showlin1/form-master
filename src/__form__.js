@@ -5,4 +5,6 @@
  * 3. controled element:one object in a stste holding all the input fields value
  * 4. uncontrolled element: useRef to create a referance to the element and 
  * access value by using like:nameRef.current.value
+ * 5. use hook to handle states and submit and error. example react hook form
+ * 6. Reausable Form
  */ 
