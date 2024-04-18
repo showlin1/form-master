@@ -1,6 +1,7 @@
 
 import './App.css'
-import ReusableForm from './Components/ReusableForm/ReusableForm'
+import GrandPa from './Components/GrandPa/GrandPa'
+// import ReusableForm from './Components/ReusableForm/ReusableForm'
 // import HoockForm from './Components/HoockForm/HoockForm'
 // import RefForm from './Components/RefForm/RefForm'
 // import StateFullForm from './Components/StateFullForm/StateFullForm'
@@ -8,21 +9,22 @@ import ReusableForm from './Components/ReusableForm/ReusableForm'
 
 function App() {
 
-  const handleSignUpSubmit = data => {
-   console.log('Sign up data',data);
-  }
-  const handleUpdateProfile = data => {
-    console.log('update profile',data);
-  }
+  // const handleSignUpSubmit = data => {
+  //  console.log('Sign up data',data);
+  // }
+  // const handleUpdateProfile = data => {
+  //   console.log('update profile',data);
+  // }
 
   return (
     <>
       <h1>Form Master</h1>
+      <GrandPa></GrandPa>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFullForm></StateFullForm> */}
       {/* <RefForm></RefForm> */}
       {/* <HoockForm></HoockForm> */}
-      <ReusableForm
+      {/* <ReusableForm
         formTitle={'Sign Up'}
         handleSubmit={handleSignUpSubmit}>
           <div>
@@ -38,7 +40,7 @@ function App() {
             <h2>Update Profile</h2>
             <p>Always keep your profile updated</p>
           </div>
-        </ReusableForm>
+        </ReusableForm> */}
 
     </>
   )
